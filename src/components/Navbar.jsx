@@ -8,7 +8,7 @@ const Navbar = () => {
 return (
     <>
     <nav className='py-4 px-30 flex items-center justify-between min-h-30  text-gray-800'>
-        <Link className='w-24 sm:w-32 lg:w-20'  to={'/'}> <img src="/src/assets/ImageGen.png" alt="logo" /></Link>
+        <Link className='w-40 sm:w-32 lg:w-30'  to={'/'}> <img src="/src/assets/ImageGen.png" alt="logo" /></Link>
     <div>
         {
         user ? 

@@ -8,10 +8,10 @@ const Footer = () => {
                 <button className='sm:text-lg bg-gray-950 text-white rounded-full px-10 py-4 mt-8'>Generate Images</button>
             </div>
             <footer className=" text-gray-800 py-6">
-                <div className="flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto px-4">
+                <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto ">
                     <div className="flex items-center space-x-3 mb-4 md:mb-0">
                         <a href="#">
-                            <img src="../src/assets/ImageGen.png" alt="Logo" className="w-20 h-20 rounded-full" />
+                            <img src="../src/assets/ImageGen.png" alt="Logo" className="w-10 h-10 rounded-full" />
                         </a>
                         <p className="text-sm">© {new Date().getFullYear()} ImageGen. All rights reserved.</p>
                     </div>
